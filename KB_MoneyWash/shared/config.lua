@@ -11,7 +11,7 @@ Config.Language = 'en' -- You can choose between 'en' and 'de'.
 
 -- WeebHook --
 
-Config.Webhook = "https://discord.com/api/webhooks/1169061897488846919/bV_hCW_K4NE7CypOm36NSIOg62SgkiNZSQZvkOKcgGKOOM8Ymgp29m_X3z9CoZvB1uUI"
+Config.Webhook = ""
 
 Config.DateFormat = '%x %H:%M' -- Here you can find the various options for formatting time: https://www.lua.org/pil/22.1.html
 
