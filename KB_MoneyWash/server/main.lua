@@ -53,7 +53,7 @@ function MoneWashLogs(amount)
     local blackMoney = xPlayer.getAccount('black_money').money
     local bank = xPlayer.getAccount('bank').money
 
-    url = Config.Webhook
+    local url = Config.Webhook
 
     local embeds = {
         {
