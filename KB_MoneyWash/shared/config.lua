@@ -7,6 +7,8 @@ Config.Coords = {
     {634.87, 2774.97, 42.01}
 }
 
+Config.Fee = 0.1 -- 10% fee
+
 Config.Language = 'en' -- You can choose between 'en' and 'de'.
 
 -- WeebHook --

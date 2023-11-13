@@ -20,7 +20,7 @@ local Language = Config.Language
 RegisterServerEvent('KBMoneyWash:wash')
 AddEventHandler('KBMoneyWash:wash', function (amount)
     local xPlayer = ESX.GetPlayerFromId(source)
-    local moneyback = amount * 0.8 
+    local moneyback = amount - (amount * Config.Fee)
 
     if xPlayer.getAccount('black_money').money >= amount then
         xPlayer.removeAccountMoney('black_money', amount)
